@@ -39,6 +39,15 @@ This patch fixes it:
 
 Kernel side is already fixed in this kernel tree.
 
+"SY8106A can't be registered" issue
+-----------------------------------
+
+See discussion here: https://patchwork.kernel.org/patch/9661085/
+Apply the following patches to u-boot:
+
+  0001-sunxi-add-PRCM-secure-switch-register-definition.patch
+  0002-sunxi-switch-PRCM-to-non-secure-on-H3-H5-SoCs.patch
+
 Sample configuration
 --------------------
 
