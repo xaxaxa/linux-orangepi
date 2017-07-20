@@ -51,4 +51,6 @@ Apply the following patches to u-boot:
 Sample configuration
 --------------------
 
-linux-4.11 file contains working configuration of the kernel
+linux-4.12-32 file contains working configuration of the kernel for Orange Pi PC
+
+linux-4.12-64 file contains working configuration of the kernel for Orange Pi PC 2
